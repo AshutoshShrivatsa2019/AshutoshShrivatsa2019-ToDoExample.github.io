@@ -1,0 +1,111 @@
+
+
+  body
+  {
+      background-color: rgb(241, 234, 234);
+  }
+
+  img{
+    float: left;
+    height:50px;
+    width: 100px;
+
+}
+
+h1 {
+  color:rgb(7, 7, 7);
+  text-align: center;
+  background-color: rgb(255, 0, 0);
+  height: 50px;
+  margin: 0;
+}
+
+nav>ul{
+  background-color: black;
+  margin: 0;
+ padding: 0;
+
+}
+
+nav >ul > li
+{
+   display: inline-block;
+}
+
+nav >ul > li > a
+{
+    padding:14px 16px;
+    color: red;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    background-color: black;
+}
+
+
+.active
+{
+    background-color:yellow;
+}
+  
+
+  .default {
+    background: none;
+    color: #666;
+  }
+  .group:before,
+  .group:after {
+    content: "";
+    display: flex;
+    clear: both;
+  }
+
+  main {
+    float: right;
+    width: 63%;
+  }
+
+  section {
+    float: right;
+    width: 75%;
+  }
+
+  aside {
+    float: left;
+    width: 30%;
+  }
+  footer {
+    margin-bottom: 0;
+  }
+  
+
+
+
+  main .txtarea
+  {
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    width: 300px;
+    height: 300px;
+    overflow: auto;
+    display: block;
+    background-color: rgb(197, 190, 190);
+  }
+
+  main .txtarea>ul{
+    list-style-type: none;
+    position: absolute;
+  }
+
+  main .txt
+  {
+    margin: 0 ;
+    display: block;
+  }
+
+  main > button
+  {
+    margin: 0;
+    margin-top: 20px;
+  }

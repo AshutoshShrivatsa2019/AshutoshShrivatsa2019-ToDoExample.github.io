@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Information Page</title>
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="Page icon" href="../images/wiki.jfif">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Add Information</h1>
+        
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="">Information</a></li>
+        </ul>
+    </nav>
+
+    <section>
+        <main>
+            <div id="txtList" class="txtarea">
+                <ul>
+
+                </ul>
+            </div>
+
+            <!-- <div class="listarea">
+
+            </div> -->
+
+            <input type="text" class="txt">
+            <button class="add">Add</button>
+        </main>
+    </section>
+
+    <!-- <script>
+        var listAdded=[];
+    $(document).ready(function(){
+        $("button").click(function(){
+
+            // console.log($("input.txt").val());
+            // $("input.txtarea").val($("input.txt").val());
+            // $("input.txt").val("");
+            
+            $("#txtList ul").append("<li>"+$("input.txt").val()+"</li>");
+            listAdded.push($("input.txt").val());
+            $("div.listarea").append(listAdded.toString()+"</br>");
+            $("input.txt").val("");
+
+        })
+    });
+    </script> -->
+    <script src="../scripts/script.js"></script>
+</body>
+</html>
